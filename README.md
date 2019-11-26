@@ -19,7 +19,16 @@ $ composer require mu/bloomfilter -vvv
 ```php
 use Mu\Bloomfilter\BloomFilter;
 
-$bloomfilter = new BloomFilter;
+# redis服务器
+$redis_conf = [
+    'host' => '127.0.0.1',
+    'port' => 6379,
+    'auth' => 'beauty',
+    'timeout'  => 1,
+    'database' =>0
+];
+
+$bloomfilter = new BloomFilter($redis_conf);
 # 设置评论的空间
 $bloomfilter->set_bucket('black_ips');
 # 添加一个ip

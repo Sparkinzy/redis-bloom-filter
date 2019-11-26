@@ -52,8 +52,6 @@ $multi_rs = $bloomfilter->multi_exists($ips);
 You can contribute in one of three ways:
 
 1.  [胡超博客](http://imhuchao.com/1271.html).
- 
-_The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
 
 ## License
 

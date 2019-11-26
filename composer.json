@@ -1,0 +1,19 @@
+{
+    "name": "mu\/bloomfilter",
+    "description": "redsi布隆过滤器",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mu",
+            "email": "sparkinzy@163.com"
+        }
+    ],
+    "require": {
+        "ext-redis": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mu\\BloomFilter\\": "src"
+        }
+    }
+}
